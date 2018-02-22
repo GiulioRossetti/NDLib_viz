@@ -7,7 +7,7 @@ var d3 = require('d3');
 Vue.use(Vuex);
 
 
-const API_URL='http://localhost:5000/api/';
+const API_URL='http://0.0.0.0:5000/api/';
 
 const colorScheme = [ '#FBCEAE',  // susceptible
                       '#EE4566',  // infected
